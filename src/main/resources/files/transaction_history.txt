@@ -1,0 +1,69 @@
+{
+  "id" : 1,
+  "operation" : [ {
+    "name" : "MARTINA",
+    "operation" : "DEPOSIT",
+    "amountBgn" : 100,
+    "amountEur" : 300,
+    "denominationBgn" : [ {
+      "quantity" : 2,
+      "cashAmount" : "50 BGN"
+    } ],
+    "denominationEur" : [ {
+      "quantity" : 2,
+      "cashAmount" : "50 EUR"
+    }, {
+      "quantity" : 5,
+      "cashAmount" : "20 EUR"
+    }, {
+      "quantity" : 10,
+      "cashAmount" : "10 EUR"
+    } ]
+  } ]
+}
+{
+  "id" : 1,
+  "operation" : [ {
+    "name" : "MARTINA",
+    "operation" : "WITHDRAW",
+    "amountBgn" : 100,
+    "amountEur" : 300,
+    "denominationBgn" : [ {
+      "quantity" : 2,
+      "cashAmount" : "50 BGN"
+    } ],
+    "denominationEur" : [ {
+      "quantity" : 2,
+      "cashAmount" : "50 EUR"
+    }, {
+      "quantity" : 5,
+      "cashAmount" : "20 EUR"
+    }, {
+      "quantity" : 10,
+      "cashAmount" : "10 EUR"
+    } ]
+  } ]
+}
+{
+  "id" : 1,
+  "operation" : [ {
+    "name" : "MARTINA",
+    "operation" : "WITHDRAW",
+    "amountBgn" : 100,
+    "amountEur" : 300,
+    "denominationBgn" : [ {
+      "quantity" : 2,
+      "cashAmount" : "50 BGN"
+    } ],
+    "denominationEur" : [ {
+      "quantity" : 2,
+      "cashAmount" : "50 EUR"
+    }, {
+      "quantity" : 5,
+      "cashAmount" : "20 EUR"
+    }, {
+      "quantity" : 10,
+      "cashAmount" : "10 EUR"
+    } ]
+  } ]
+}

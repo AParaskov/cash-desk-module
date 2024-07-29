@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "2b222759-e521-4739-add0-6985c977731b",
+		"name": "CashDeskModule",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14974542"
+	},
+	"item": [
+		{
+			"name": "CashOperation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "FIB-X-AUTH",
+						"value": "f9Uie8nNf112hx8s",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"operation\": [\r\n        {\r\n            \"name\": \"MARTINA\",\r\n            \"operation\": \"DEPOSIT\",\r\n            \"amountBgn\": 100,\r\n            \"amountEur\": 300,\r\n            \"denominationBgn\": [\r\n                {\r\n                    \"quantity\": 2,\r\n                    \"cashAmount\": \"50 BGN\"\r\n                    \r\n                }\r\n            ],\r\n            \"denominationEur\": [\r\n                {\r\n                    \"quantity\": 2,\r\n                    \"cashAmount\": \"50 EUR\"\r\n                },\r\n                {\r\n                    \"quantity\": 5,\r\n                    \"cashAmount\": \"20 EUR\"\r\n                },\r\n                {\r\n                    \"quantity\": 10,\r\n                    \"cashAmount\": \"10 EUR\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cash-operation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cash-operation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CashBalance",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "FIB-X-AUTH",
+						"value": "f9Uie8nNf112hx8s",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cash-balance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cash-balance"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
