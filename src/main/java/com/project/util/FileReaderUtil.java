@@ -15,7 +15,6 @@ public class FileReaderUtil {
     private ObjectMapper objectMapper;
 
     public CashBalance readCardBalancesAndDenominations() throws IOException {
-        new CashBalance();
         CashBalance cashBalance;
         try {
             cashBalance = objectMapper.readValue(new File(CARD_BALANCES_AND_DENOMINATIONS_PATH), CashBalance.class);

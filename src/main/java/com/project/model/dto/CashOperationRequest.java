@@ -10,6 +10,6 @@ import java.util.List;
 @Getter
 public class CashOperationRequest {
     @Min(1)
-    private long id;
+    private Long id;
     private List<@Valid CashOperation> operation;
 }

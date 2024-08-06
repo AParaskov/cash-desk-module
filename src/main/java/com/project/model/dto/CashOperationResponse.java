@@ -9,6 +9,6 @@ import java.util.List;
 @Getter
 @Builder
 public class CashOperationResponse {
-    private long id;
+    private Long id;
     private List<CashOperation> operation;
 }
